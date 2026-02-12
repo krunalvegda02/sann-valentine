@@ -29,7 +29,7 @@ const Landing = () => {
         </motion.div>
 
         <motion.h1 
-          className="text-6xl md:text-8xl font-cursive text-gradient mb-8"
+          className="text-6xl md:text-6xl font-cursive text-gradient mb-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.3 }}

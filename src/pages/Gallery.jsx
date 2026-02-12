@@ -42,38 +42,39 @@ const Gallery = () => {
   const loveNotes = [
     {
       id: 1,
-      note: 'Your smile lights up my entire world',
-      author: 'Every time I see you',
-      image: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400'
+      note: 'Hello baby, I know apde bau jagadya kale, but hu tane bau prem karu chu, mane tara sivay koina ma interest nai, tara jetlu hu koinathi attract nai thato snehu. Apde life no 10% time ek bija sathe kadhi didho che, have mare mara vadhela badha j divas tara sathe kadhva che snehu, taru dhyan rakhvu che tane fuck karvi che, tane farva lai javi che. Tane bau bau bau prem karvo che snehu. Hamesha taro hath pakadvo che snehu. Maja aai kale tara thi jagadine, but jagadata jagadata mara man ma prem j hato km ke tara mate aa present ready karato hato hu snehu, and jagadine tane heran. Sachey baby, I love you, mari cuttie valentine, have tame mane accept karij lidho che to farmais ko tamari shu joie che tamne snehu maam tamaru ek physical present pan wait kare che mango baby snehu. Mara jode akhi life rehvanu che tare snehu baby akhi life snehu, 1week this plan karu chu baby tamara mate aa vistuall present. And hope tame aa joine bau khush thaso, maro badho gusso gayab kari deso please, pretty please. Em nathi snehu ke aa gift me tane shant karva banayu, aa maru plan hatu ke tane valentine par aalu but baby apda past few days bau kharab gaya snehu mara karane, im sorry snehu, tamari food treeat, tamaru actual meal and teddy badhu tamara jode che, chupchap whatapp ma jao and bolo shu kehvu che have, shu tamaro boyfrined haju tamne prem nai karto hein baby?????',
+      author: 'With all my heart, forever yours',
+      image: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400',
+      isLong: true
     },
     {
       id: 2,
-      note: 'I fall in love with you more every single day',
-      author: 'My heart to yours',
+      note: 'Your smile lights up my entire world',
+      author: 'Every time I see you',
       image: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400'
     },
     {
       id: 3,
-      note: 'You make my heart skip a beat',
-      author: 'Always and forever',
+      note: 'I fall in love with you more every single day',
+      author: 'My heart to yours',
       image: 'https://images.unsplash.com/photo-1522673607167-5d90b8f98537?w=400'
     },
     {
       id: 4,
-      note: 'Home is wherever Im with you',
-      author: 'My safe place',
+      note: 'You make my heart skip a beat',
+      author: 'Always and forever',
       image: 'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=400'
     },
     {
       id: 5,
-      note: 'You are my today and all of my tomorrows',
-      author: 'Forever yours',
+      note: 'Home is wherever Im with you',
+      author: 'My safe place',
       image: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400'
     },
     {
       id: 6,
-      note: 'Thank you for being my reason to smile',
-      author: 'With all my love',
+      note: 'You are my today and all of my tomorrows',
+      author: 'Forever yours',
       image: 'https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=400'
     }
   ]
@@ -184,7 +185,7 @@ const Gallery = () => {
           {[
             { id: 'memories', label: 'Memories', IconComponent: FaCamera },
             { id: 'timeline', label: 'Our Journey', IconComponent: FaRoute },
-            { id: 'notes', label: 'Love Notes', IconComponent: FaEnvelope },
+            { id: 'notes', label: 'For You', IconComponent: FaEnvelope },
             { id: 'places', label: 'Special Places', IconComponent: FaMapPin }
           ].map((tab) => (
             <motion.button
@@ -331,43 +332,46 @@ const Gallery = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-              {loveNotes.map((note, index) => (
+            <div className="max-w-4xl mx-auto mb-12">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.2 }}
+                className="bg-gradient-to-br from-valentine-light-pink to-valentine-light-purple rounded-3xl p-8 md:p-12 shadow-2xl"
+              >
+                <div className="flex items-center justify-center mb-6">
+                  <FaHeart className="text-valentine-dark-pink" size={40} />
+                </div>
+                <div className="prose prose-lg max-w-none">
+                  <p className="text-base md:text-lg text-valentine-dark-purple font-cute leading-relaxed whitespace-pre-line">
+                    Hello baby, I know apde bau jagadya kale, but hu tane bau prem karu chu, mane tara sivay koina ma interest nai, tara jetlu hu koinathi attract nai thato snehu.
+                    {"\n\n"}
+                    Apde life no 10% time ek bija sathe kadhi didho che, have mare mara vadhela badha j divas tara sathe kadhva che snehu, taru dhyan rakhvu che tane fuck karvi che, tane farva lai javi che.
+                    {"\n\n"}
+                    Tane bau bau bau prem karvo che snehu. Hamesha taro hath pakadvo che snehu.
+                    {"\n\n"}
+                    Maja aai kale tara thi jagadine, but jagadata jagadata mara man ma prem j hato km ke tara mate aa present ready karato hato hu snehu, and jagadine tane heran.
+                    {"\n\n"}
+                    Sachey baby, I love you, mari cuttie valentine, have tame mane accept karij lidho che to farmais ko tamari shu joie che tamne snehu maam tamaru ek physical present pan wait kare che mango baby snehu.
+                    {"\n\n"}
+                    Mara jode akhi life rehvanu che tare snehu baby akhi life snehu, 1week this plan karu chu baby tamara mate aa vistuall present. And hope tame aa joine bau khush thaso, maro badho gusso gayab kari deso please, pretty please.
+                    {"\n\n"}
+                    Em nathi snehu ke aa gift me tane shant karva banayu, aa maru plan hatu ke tane valentine par aalu but baby apda past few days bau kharab gaya snehu mara karane, im sorry snehu, tamari food treeat, tamaru actual meal and teddy badhu tamara jode che, chupchap whatapp ma jao and bolo shu kehvu che have, shu tamaro boyfrined haju tamne prem nai karto hein baby?????
+                  </p>
+                </div>
+                <div className="mt-8 text-center">
+                  <p className="text-lg text-valentine-dark-pink font-script italic">
+                    - With all my heart, forever yours
+                  </p>
+                </div>
                 <motion.div
-                  key={note.id}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: index * 0.1 }}
-                  whileHover={{ scale: 1.05, y: -5 }}
-                  className="group cursor-pointer"
+                  className="flex justify-center mt-6"
+                  animate={{ scale: [1, 1.2, 1] }}
+                  transition={{ duration: 2, repeat: Infinity }}
                 >
-                  <div className="relative overflow-hidden rounded-3xl shadow-xl bg-white">
-                    <div className="relative h-64 overflow-hidden">
-                      <img
-                        src={note.image}
-                        alt={note.note}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-valentine-dark-pink/90 via-valentine-dark-pink/50 to-transparent" />
-                    </div>
-                    <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                      <p className="text-xl font-script mb-2 leading-relaxed">
-                        "{note.note}"
-                      </p>
-                      <p className="text-sm font-cute italic opacity-90">
-                        - {note.author}
-                      </p>
-                    </div>
-                    <motion.div
-                      className="absolute top-4 right-4"
-                      animate={{ scale: [1, 1.2, 1] }}
-                      transition={{ duration: 2, repeat: Infinity }}
-                    >
-                      <FaHeart className="text-white drop-shadow-lg" size={24} />
-                    </motion.div>
-                  </div>
+                  <FaHeart className="text-valentine-dark-pink" size={30} />
                 </motion.div>
-              ))}
+              </motion.div>
             </div>
           </motion.div>
         )}
