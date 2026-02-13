@@ -1,10 +1,14 @@
 import { motion } from 'framer-motion'
+import img1 from '../assets/1.jpeg'
+import img2 from '../assets/2.jpeg'
+import img3 from '../assets/3.jpeg'
+import img4 from '../assets/4.jpeg'
 
 const FloatingPolaroids = () => {
   const polaroids = [
     {
       id: 1,
-      url: '/src/assets/1.jpeg',
+      url: img1,
       caption: 'Us 💕',
       rotation: -8,
       left: '5%',
@@ -13,7 +17,7 @@ const FloatingPolaroids = () => {
     },
     {
       id: 2,
-      url: '/src/assets/2.jpeg',
+      url: img2,
       caption: 'Forever ✨',
       rotation: 12,
       left: '75%',
@@ -22,7 +26,7 @@ const FloatingPolaroids = () => {
     },
     {
       id: 3,
-      url: '/src/assets/3.jpeg',
+      url: img3,
       caption: 'Together 💖',
       rotation: -5,
       left: '10%',
@@ -31,7 +35,7 @@ const FloatingPolaroids = () => {
     },
     {
       id: 4,
-      url: '/src/assets/4.jpeg',
+      url: img4,
       caption: 'Always 🌸',
       rotation: 10,
       left: '80%',

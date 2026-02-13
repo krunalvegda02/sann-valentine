@@ -2,6 +2,26 @@ import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FaHeart, FaCalendarAlt, FaMapMarkerAlt, FaCamera, FaRoute, FaEnvelope, FaMapPin, FaCoffee, FaTree, FaFilm, FaStar } from 'react-icons/fa'
 import FloatingHearts from '../components/FloatingHearts'
+import img1 from '../assets/1.jpeg'
+import img2 from '../assets/2.jpeg'
+import img3 from '../assets/3.jpeg'
+import img4 from '../assets/4.jpeg'
+import img5 from '../assets/5.jpeg'
+import img6 from '../assets/6.jpeg'
+import img7 from '../assets/7.jpeg'
+import img8 from '../assets/8.jpeg'
+import img9 from '../assets/9.jpeg'
+import img10 from '../assets/10.jpeg'
+import img11 from '../assets/11.jpeg'
+import img12 from '../assets/12.jpeg'
+import img13 from '../assets/13.jpeg'
+import img14 from '../assets/14.jpeg'
+import img15 from '../assets/15.jpeg'
+import img17 from '../assets/17.jpeg'
+import img18 from '../assets/18.jpeg'
+import img19 from '../assets/19.jpeg'
+import whatsapp1 from '../assets/WhatsApp Image 2026-02-13 at 00.14.22.jpeg'
+import whatsapp2 from '../assets/WhatsApp Image 2026-02-13 at 00.14.23.jpeg'
 
 const Gallery = () => {
   const [activeTab, setActiveTab] = useState('memories')
@@ -13,28 +33,28 @@ const Gallery = () => {
       title: 'The Day We Met',
       description: 'The moment I saw you, I knew my life was about to change forever',
       IconComponent: FaStar,
-      photo: '/src/assets/13.jpeg'
+      photo: img13
     },
     {
       date: 'February 2023',
       title: 'Our First Date',
       description: 'Nervous butterflies, endless conversations, and the beginning of us',
       IconComponent: FaHeart,
-      photo: '/src/assets/14.jpeg'
+      photo: img14
     },
     {
       date: 'March 2023',
       title: 'Our First Kiss',
       description: 'Time stopped, and I knew I wanted to kiss you forever',
       IconComponent: FaHeart,
-      photo: '/src/assets/15.jpeg'
+      photo: img15
     },
     {
       date: 'Special Moment',
       title: 'When I Knew',
       description: 'The moment I realized you were the one I want to spend my life with',
       IconComponent: FaHeart,
-      photo: '/src/assets/17.jpeg'
+      photo: img17
     }
   ]
 
@@ -86,28 +106,28 @@ const Gallery = () => {
       place: 'Our Favorite Café',
       memory: 'Where we have our coffee dates and deep conversations',
       IconComponent: FaCoffee,
-      image: '/src/assets/18.jpeg'
+      image: img18
     },
     {
       id: 2,
       place: 'The Park',
       memory: 'Our sunset walks and stolen kisses',
       IconComponent: FaTree,
-      image: '/src/assets/19.jpeg'
+      image: img19
     },
     {
       id: 3,
       place: 'Movie Theater',
       memory: 'Holding hands in the dark, sharing popcorn',
       IconComponent: FaFilm,
-      image: '/src/assets/WhatsApp Image 2026-02-13 at 00.14.22.jpeg'
+      image: whatsapp1
     },
     {
       id: 4,
       place: 'Our Spot',
       memory: 'Where we go to escape the world and just be us',
       IconComponent: FaStar,
-      image: '/src/assets/WhatsApp Image 2026-02-13 at 00.14.23.jpeg'
+      image: whatsapp2
     }
   ]
 
@@ -115,73 +135,73 @@ const Gallery = () => {
   const photos = [
     {
       id: 1,
-      url: '/src/assets/1.jpeg',
+      url: img1,
       caption: 'Our first date',
       date: 'Forever in my heart'
     },
     {
       id: 2,
-      url: '/src/assets/2.jpeg',
+      url: img2,
       caption: 'When you smiled at me',
       date: 'That moment I fell harder'
     },
     {
       id: 3,
-      url: '/src/assets/3.jpeg',
+      url: img3,
       caption: 'Making memories together',
       date: 'Every moment with you'
     },
     {
       id: 4,
-      url: '/src/assets/4.jpeg',
+      url: img4,
       caption: 'You and me against the world',
       date: 'Always and forever'
     },
     {
       id: 5,
-      url: '/src/assets/5.jpeg',
+      url: img5,
       caption: 'The day I knew',
       date: 'You were the one'
     },
     {
       id: 6,
-      url: '/src/assets/6.jpeg',
+      url: img6,
       caption: 'Adventure with you',
       date: 'My favorite person'
     },
     {
       id: 7,
-      url: '/src/assets/7.jpeg',
+      url: img7,
       caption: 'Beautiful moments',
       date: 'With you'
     },
     {
       id: 8,
-      url: '/src/assets/8.jpeg',
+      url: img8,
       caption: 'Our journey',
       date: 'Together forever'
     },
     {
       id: 9,
-      url: '/src/assets/9.jpeg',
+      url: img9,
       caption: 'Special times',
       date: 'Just us two'
     },
     {
       id: 10,
-      url: '/src/assets/10.jpeg',
+      url: img10,
       caption: 'Sweet memories',
       date: 'Forever cherished'
     },
     {
       id: 11,
-      url: '/src/assets/11.jpeg',
+      url: img11,
       caption: 'Happy days',
       date: 'With my love'
     },
     {
       id: 12,
-      url: '/src/assets/12.jpeg',
+      url: img12,
       caption: 'Perfect moments',
       date: 'Always together'
     }
