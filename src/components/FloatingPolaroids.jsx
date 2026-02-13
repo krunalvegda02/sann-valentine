@@ -4,7 +4,7 @@ const FloatingPolaroids = () => {
   const polaroids = [
     {
       id: 1,
-      url: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400',
+      url: '/src/assets/1.jpeg',
       caption: 'Us 💕',
       rotation: -8,
       left: '5%',
@@ -13,7 +13,7 @@ const FloatingPolaroids = () => {
     },
     {
       id: 2,
-      url: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400',
+      url: '/src/assets/2.jpeg',
       caption: 'Forever ✨',
       rotation: 12,
       left: '75%',
@@ -22,7 +22,7 @@ const FloatingPolaroids = () => {
     },
     {
       id: 3,
-      url: 'https://images.unsplash.com/photo-1522673607167-5d90b8f98537?w=400',
+      url: '/src/assets/3.jpeg',
       caption: 'Together 💖',
       rotation: -5,
       left: '10%',
@@ -31,7 +31,7 @@ const FloatingPolaroids = () => {
     },
     {
       id: 4,
-      url: 'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=400',
+      url: '/src/assets/4.jpeg',
       caption: 'Always 🌸',
       rotation: 10,
       left: '80%',

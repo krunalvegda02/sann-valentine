@@ -13,28 +13,28 @@ const Gallery = () => {
       title: 'The Day We Met',
       description: 'The moment I saw you, I knew my life was about to change forever',
       IconComponent: FaStar,
-      photo: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=600'
+      photo: '/src/assets/13.jpeg'
     },
     {
       date: 'February 2023',
       title: 'Our First Date',
       description: 'Nervous butterflies, endless conversations, and the beginning of us',
       IconComponent: FaHeart,
-      photo: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=600'
+      photo: '/src/assets/14.jpeg'
     },
     {
       date: 'March 2023',
       title: 'Our First Kiss',
       description: 'Time stopped, and I knew I wanted to kiss you forever',
       IconComponent: FaHeart,
-      photo: 'https://images.unsplash.com/photo-1522673607167-5d90b8f98537?w=600'
+      photo: '/src/assets/15.jpeg'
     },
     {
       date: 'Special Moment',
       title: 'When I Knew',
       description: 'The moment I realized you were the one I want to spend my life with',
       IconComponent: FaHeart,
-      photo: 'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=600'
+      photo: '/src/assets/17.jpeg'
     }
   ]
 
@@ -86,28 +86,28 @@ const Gallery = () => {
       place: 'Our Favorite Café',
       memory: 'Where we have our coffee dates and deep conversations',
       IconComponent: FaCoffee,
-      image: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600'
+      image: '/src/assets/18.jpeg'
     },
     {
       id: 2,
       place: 'The Park',
       memory: 'Our sunset walks and stolen kisses',
       IconComponent: FaTree,
-      image: 'https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=600'
+      image: '/src/assets/19.jpeg'
     },
     {
       id: 3,
       place: 'Movie Theater',
       memory: 'Holding hands in the dark, sharing popcorn',
       IconComponent: FaFilm,
-      image: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600'
+      image: '/src/assets/WhatsApp Image 2026-02-13 at 00.14.22.jpeg'
     },
     {
       id: 4,
       place: 'Our Spot',
       memory: 'Where we go to escape the world and just be us',
       IconComponent: FaStar,
-      image: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600'
+      image: '/src/assets/WhatsApp Image 2026-02-13 at 00.14.23.jpeg'
     }
   ]
 
@@ -115,39 +115,75 @@ const Gallery = () => {
   const photos = [
     {
       id: 1,
-      url: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800',
+      url: '/src/assets/1.jpeg',
       caption: 'Our first date',
       date: 'Forever in my heart'
     },
     {
       id: 2,
-      url: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800',
+      url: '/src/assets/2.jpeg',
       caption: 'When you smiled at me',
       date: 'That moment I fell harder'
     },
     {
       id: 3,
-      url: 'https://images.unsplash.com/photo-1522673607167-5d90b8f98537?w=800',
+      url: '/src/assets/3.jpeg',
       caption: 'Making memories together',
       date: 'Every moment with you'
     },
     {
       id: 4,
-      url: 'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=800',
+      url: '/src/assets/4.jpeg',
       caption: 'You and me against the world',
       date: 'Always and forever'
     },
     {
       id: 5,
-      url: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800',
+      url: '/src/assets/5.jpeg',
       caption: 'The day I knew',
       date: 'You were the one'
     },
     {
       id: 6,
-      url: 'https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=800',
+      url: '/src/assets/6.jpeg',
       caption: 'Adventure with you',
       date: 'My favorite person'
+    },
+    {
+      id: 7,
+      url: '/src/assets/7.jpeg',
+      caption: 'Beautiful moments',
+      date: 'With you'
+    },
+    {
+      id: 8,
+      url: '/src/assets/8.jpeg',
+      caption: 'Our journey',
+      date: 'Together forever'
+    },
+    {
+      id: 9,
+      url: '/src/assets/9.jpeg',
+      caption: 'Special times',
+      date: 'Just us two'
+    },
+    {
+      id: 10,
+      url: '/src/assets/10.jpeg',
+      caption: 'Sweet memories',
+      date: 'Forever cherished'
+    },
+    {
+      id: 11,
+      url: '/src/assets/11.jpeg',
+      caption: 'Happy days',
+      date: 'With my love'
+    },
+    {
+      id: 12,
+      url: '/src/assets/12.jpeg',
+      caption: 'Perfect moments',
+      date: 'Always together'
     }
   ]
 
