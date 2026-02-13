@@ -15,13 +15,21 @@ import img10 from '../assets/10.jpeg'
 import img11 from '../assets/11.jpeg'
 import img12 from '../assets/12.jpeg'
 import img13 from '../assets/13.jpeg'
-import img14 from '../assets/14.jpeg'
-import img15 from '../assets/15.jpeg'
-import img17 from '../assets/17.jpeg'
-import img18 from '../assets/18.jpeg'
-import img19 from '../assets/19.jpeg'
-import whatsapp1 from '../assets/WhatsApp Image 2026-02-13 at 00.14.22.jpeg'
-import whatsapp2 from '../assets/WhatsApp Image 2026-02-13 at 00.14.23.jpeg'
+import img14Real from '../assets/14.jpeg'
+import img15Real from '../assets/15.jpeg'
+import img17Real from '../assets/17.jpeg'
+import img18Real from '../assets/18.jpeg'
+import img19Real from '../assets/19.jpeg'
+import whatsapp1Real from '../assets/WhatsApp Image 2026-02-13 at 00.14.22.jpeg'
+import whatsapp2Real from '../assets/WhatsApp Image 2026-02-13 at 00.14.23.jpeg'
+
+import img14 from '../assets/7.jpeg'
+import img15 from '../assets/19.jpeg'
+import img17 from '../assets/10.jpeg'
+import img18 from '../assets/6.jpeg'
+import img19 from '../assets/8.jpeg'
+import whatsapp1 from '../assets/12.jpeg'
+import whatsapp2 from '../assets/18.jpeg'
 
 const Gallery = () => {
   const [activeTab, setActiveTab] = useState('memories')
@@ -36,96 +44,59 @@ const Gallery = () => {
       photo: img13
     },
     {
-      date: 'February 2023',
-      title: 'Our First Date',
-      description: 'Nervous butterflies, endless conversations, and the beginning of us',
-      IconComponent: FaHeart,
-      photo: img14
-    },
-    {
-      date: 'March 2023',
+      date: 'January 29, 2023',
       title: 'Our First Kiss',
       description: 'Time stopped, and I knew I wanted to kiss you forever',
       IconComponent: FaHeart,
       photo: img15
     },
+
     {
       date: 'Special Moment',
       title: 'When I Knew',
       description: 'The moment I realized you were the one I want to spend my life with',
       IconComponent: FaHeart,
       photo: img17
-    }
+    },
+    {
+      date: 'February 2023',
+      title: 'Our Double Date',
+      description: 'Nervous butterflies, endless conversations, and the beginning of us like our marriage life', 
+      IconComponent: FaHeart,
+      photo: img14
+    },
+
   ]
 
-  // Love Notes with images
-  const loveNotes = [
-    {
-      id: 1,
-      note: 'Hello baby, I know apde bau jagadya kale, but hu tane bau prem karu chu, mane tara sivay koina ma interest nai, tara jetlu hu koinathi attract nai thato snehu. Apde life no 10% time ek bija sathe kadhi didho che, have mare mara vadhela badha j divas tara sathe kadhva che snehu, taru dhyan rakhvu che tane fuck karvi che, tane farva lai javi che. Tane bau bau bau prem karvo che snehu. Hamesha taro hath pakadvo che snehu. Maja aai kale tara thi jagadine, but jagadata jagadata mara man ma prem j hato km ke tara mate aa present ready karato hato hu snehu, and jagadine tane heran. Sachey baby, I love you, mari cuttie valentine, have tame mane accept karij lidho che to farmais ko tamari shu joie che tamne snehu maam tamaru ek physical present pan wait kare che mango baby snehu. Mara jode akhi life rehvanu che tare snehu baby akhi life snehu, 1week this plan karu chu baby tamara mate aa vistuall present. And hope tame aa joine bau khush thaso, maro badho gusso gayab kari deso please, pretty please. Em nathi snehu ke aa gift me tane shant karva banayu, aa maru plan hatu ke tane valentine par aalu but baby apda past few days bau kharab gaya snehu mara karane, im sorry snehu, tamari food treeat, tamaru actual meal and teddy badhu tamara jode che, chupchap whatapp ma jao and bolo shu kehvu che have, shu tamaro boyfrined haju tamne prem nai karto hein baby?????',
-      author: 'With all my heart, forever yours',
-      image: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400',
-      isLong: true
-    },
-    {
-      id: 2,
-      note: 'Your smile lights up my entire world',
-      author: 'Every time I see you',
-      image: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400'
-    },
-    {
-      id: 3,
-      note: 'I fall in love with you more every single day',
-      author: 'My heart to yours',
-      image: 'https://images.unsplash.com/photo-1522673607167-5d90b8f98537?w=400'
-    },
-    {
-      id: 4,
-      note: 'You make my heart skip a beat',
-      author: 'Always and forever',
-      image: 'https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?w=400'
-    },
-    {
-      id: 5,
-      note: 'Home is wherever Im with you',
-      author: 'My safe place',
-      image: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=400'
-    },
-    {
-      id: 6,
-      note: 'You are my today and all of my tomorrows',
-      author: 'Forever yours',
-      image: 'https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=400'
-    }
-  ]
+
 
   // Special Places with images
   const specialPlaces = [
     {
       id: 1,
-      place: 'Our Favorite Café',
-      memory: 'Where we have our coffee dates and deep conversations',
+      place: 'Our Favorite Hotel',
+      memory: 'Where we have our first fingering first nude and total new experience deep conversations',
       IconComponent: FaCoffee,
       image: img18
     },
     {
       id: 2,
-      place: 'The Park',
-      memory: 'Our sunset walks and stolen kisses',
+      place: 'Our Secret Cafe',
+      memory: 'Our double date ke jema te mane total new experience alyo, jyare me chop stick pakadi and bas maja kari no words',
       IconComponent: FaTree,
       image: img19
     },
     {
       id: 3,
-      place: 'Movie Theater',
-      memory: 'Holding hands in the dark, sharing popcorn',
+      place: 'Our Tasty COCO',
+      memory: 'Holding hands in, sharing coco and icecreame, sitting in public and lots of talk and farvanu',
       IconComponent: FaFilm,
       image: whatsapp1
     },
     {
       id: 4,
-      place: 'Our Spot',
-      memory: 'Where we go to escape the world and just be us',
+      place: 'Our First Date',
+      memory: 'Where we go to for the first time and kiss in the public, wk bija ma khovai gaya kasuj sochya vagar aju baju nu and just be us',
       IconComponent: FaStar,
       image: whatsapp2
     }
@@ -136,74 +107,116 @@ const Gallery = () => {
     {
       id: 1,
       url: img1,
-      caption: 'Our first date',
-      date: 'Forever in my heart'
+      caption: 'You make my heart skip a beat',
+      date: 'Every single time I see you'
     },
     {
       id: 2,
       url: img2,
-      caption: 'When you smiled at me',
-      date: 'That moment I fell harder'
+      caption: 'In your eyes, I found my home',
+      date: 'Where I belong forever'
     },
     {
       id: 3,
       url: img3,
-      caption: 'Making memories together',
-      date: 'Every moment with you'
+      caption: 'Your smile is my favorite view',
+      date: 'Brighter than any sunrise'
     },
     {
       id: 4,
       url: img4,
-      caption: 'You and me against the world',
-      date: 'Always and forever'
+      caption: 'With you, every moment is magic',
+      date: 'My forever and always'
     },
     {
       id: 5,
       url: img5,
-      caption: 'The day I knew',
-      date: 'You were the one'
+      caption: 'You are my greatest adventure',
+      date: 'And my safest place'
     },
     {
       id: 6,
-      url: img6,
-      caption: 'Adventure with you',
-      date: 'My favorite person'
+      url: whatsapp2,
+      caption: 'Falling for you was easy',
+      date: 'Staying in love is my choice'
     },
     {
       id: 7,
       url: img7,
-      caption: 'Beautiful moments',
-      date: 'With you'
+      caption: 'Your laugh is my favorite sound',
+      date: 'Music to my soul'
     },
-    {
-      id: 8,
-      url: img8,
-      caption: 'Our journey',
-      date: 'Together forever'
-    },
+    // {
+    //   id: 8,
+    //   url: img8,
+    //   caption: 'Together we are unstoppable',
+    //   date: 'You and me against the world'
+    // },
     {
       id: 9,
       url: img9,
-      caption: 'Special times',
-      date: 'Just us two'
+      caption: 'Every love story is beautiful',
+      date: 'But ours is my favorite'
     },
     {
       id: 10,
       url: img10,
-      caption: 'Sweet memories',
-      date: 'Forever cherished'
+      caption: 'You are my today and tomorrow',
+      date: 'My forever love'
     },
     {
       id: 11,
       url: img11,
-      caption: 'Happy days',
-      date: 'With my love'
+      caption: 'In your arms, I found peace',
+      date: 'My heart found home'
     },
     {
       id: 12,
       url: img12,
-      caption: 'Perfect moments',
-      date: 'Always together'
+      caption: 'You are my sunshine on cloudy days',
+      date: 'My light in the darkness'
+    },
+    {
+      id: 14,
+      url: img14Real,
+      caption: 'Loving you is the best decision',
+      date: 'I make every single day'
+    },
+    {
+      id: 15,
+      url: img15Real,
+      caption: 'You are my dream come true',
+      date: 'My answered prayer'
+    },
+    {
+      id: 17,
+      url: img17Real,
+      caption: 'With you, I am complete',
+      date: 'My missing piece found'
+    },
+    {
+      id: 18,
+      url: img18Real,
+      caption: 'Your love is my greatest treasure',
+      date: 'Worth more than anything'
+    },
+    {
+      id: 19,
+      url: img19Real,
+      caption: 'You make ordinary moments extraordinary',
+      date: 'Just by being you'
+    },
+    {
+      id: 20,
+      url: whatsapp1Real,
+      caption: 'Forever grateful for you',
+      date: 'My blessing, my love'
+    },
+    {
+      id: 21,
+      url: whatsapp2Real,
+      caption: 'You are my always and forever',
+      date: 'My one and only'
     }
   ]
 
@@ -211,7 +224,7 @@ const Gallery = () => {
     <div className="relative min-h-screen py-12 px-4">
       <FloatingHearts />
 
-      <motion.div 
+      <motion.div
         className="relative z-10 max-w-7xl mx-auto"
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
@@ -247,11 +260,10 @@ const Gallery = () => {
             <motion.button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`px-8 py-4 rounded-full font-cute text-lg font-semibold transition-all ${
-                activeTab === tab.id
-                  ? 'bg-gradient-to-r from-valentine-pink to-valentine-purple text-white shadow-xl scale-105'
-                  : 'bg-white/60 text-valentine-dark-purple hover:bg-white/80'
-              }`}
+              className={`px-8 py-4 rounded-full font-cute text-lg font-semibold transition-all ${activeTab === tab.id
+                ? 'bg-gradient-to-r from-valentine-pink to-valentine-purple text-white shadow-xl scale-105'
+                : 'bg-white/60 text-valentine-dark-purple hover:bg-white/80'
+                }`}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -270,8 +282,8 @@ const Gallery = () => {
           >
             <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-8 mb-12 shadow-lg max-w-3xl mx-auto">
               <p className="text-lg md:text-xl text-valentine-dark-purple font-cute text-center leading-relaxed">
-                "These photos capture just a few of our countless beautiful moments. 
-                Each one holds a memory that makes my heart smile. 
+                "These photos capture just a few of our countless beautiful moments.
+                Each one holds a memory that makes my heart smile.
                 You are my favorite chapter in the story of my life."
               </p>
             </div>
@@ -322,7 +334,7 @@ const Gallery = () => {
           >
             <div className="relative">
               <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-valentine-pink via-valentine-purple to-valentine-pink hidden md:block" />
-              
+
               <div className="space-y-12">
                 {timeline.map((item, index) => (
                   <motion.div
@@ -330,9 +342,8 @@ const Gallery = () => {
                     initial={{ opacity: 0, x: index % 2 === 0 ? -100 : 100 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.2 }}
-                    className={`relative flex items-center gap-8 ${
-                      index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                    } flex-col`}
+                    className={`relative flex items-center gap-8 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
+                      } flex-col`}
                   >
                     <div className="flex-1 md:w-5/12">
                       <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-6 shadow-xl hover:shadow-2xl transition-shadow">
@@ -455,7 +466,7 @@ const Gallery = () => {
                       <img
                         src={place.image}
                         alt={place.place}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
                       <div className="absolute top-4 left-4">

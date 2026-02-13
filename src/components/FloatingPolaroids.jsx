@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion'
-import img1 from '../assets/1.jpeg'
+import img1 from '../assets/15.jpeg'
 import img2 from '../assets/2.jpeg'
-import img3 from '../assets/3.jpeg'
-import img4 from '../assets/4.jpeg'
+import img3 from '../assets/1.jpeg'
+import img4 from '../assets/17.jpeg'
 
 const FloatingPolaroids = () => {
   const polaroids = [
@@ -49,7 +49,7 @@ const FloatingPolaroids = () => {
       {polaroids.map((polaroid) => (
         <motion.div
           key={polaroid.id}
-          className="absolute hidden md:block"
+          className="absolute"
           style={{
             left: polaroid.left,
             top: polaroid.top,
