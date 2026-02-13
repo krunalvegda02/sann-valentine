@@ -61,7 +61,7 @@ const Gallery = () => {
     {
       date: 'February 2023',
       title: 'Our Double Date',
-      description: 'Nervous butterflies, endless conversations, and the beginning of us like our marriage life', 
+      description: 'Nervous butterflies, endless conversations, and the beginning of us like our marriage life',
       IconComponent: FaHeart,
       photo: img14
     },
@@ -424,6 +424,10 @@ const Gallery = () => {
                     Mara jode akhi life rehvanu che tare snehu baby akhi life snehu, 1week this plan karu chu baby tamara mate aa vistuall present. And hope tame aa joine bau khush thaso, maro badho gusso gayab kari deso please, pretty please.
                     {"\n\n"}
                     Em nathi snehu ke aa gift me tane shant karva banayu, aa maru plan hatu ke tane valentine par aalu but baby apda past few days bau kharab gaya snehu mara karane, im sorry snehu, tamari food treeat, tamaru actual meal and teddy badhu tamara jode che, chupchap whatapp ma jao and bolo shu kehvu che have, shu tamaro boyfrined haju tamne prem nai karto hein baby?????
+                    {"\n\n"}
+                    mare bas em kehvu che tane, tane chodine kyay nai javu, etli tight pakadish ne svas nai ave, tane ganda jem prem karish snehu, pura dil thi.  tane badhu khabr che toy tane yad kravu chu snehu ke tara mate hu badha thi ladis, akhi dunia uthai lais, badhu karish, just to make you mine, tara jode naked suva kem ke snehu name ni adat amrathi chutaavni che nai snehu sachey, and taro nasho tari adat, tari bodu betu taru care aa badhu marathi dur nai jaay, mara svas ma che tu snehu mara svas ma, akha divas ma...
+                    {"\n\n"}
+                    will you marrry me, for this year will you be my valentine, and for the rest of our lives will you be mine, i promise to love you, to cherish you, to support you, and to be there for you through all of life’s ups and downs. I want to build a future with you, filled with love, laughter, and endless adventures. I want to wake up every morning next to you and fall asleep every night in your arms. I want to grow old with you and create a lifetime of beautiful memories together. So, will you marry me, my love?  are you innn.....??
                   </p>
                 </div>
                 <div className="mt-8 text-center">
